@@ -1,1 +1,1 @@
-run first.py in server
+run first_run.py in server
