@@ -1,0 +1,47 @@
+.selectServer {
+  margin-bottom: 15px;
+}
+
+.activityCheck {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.activityData {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activityPlayersData {
+  height: 600px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player {
+  color: black;
+}
+
+#helper1 {
+  color: #32cd32;
+}
+
+#helper2 {
+  color: #008000;
+}
+
+#mod {
+  color: #4b0082;
+}
+
+#green {
+  color: green;
+}
+
+#red {
+  color: red;
+}

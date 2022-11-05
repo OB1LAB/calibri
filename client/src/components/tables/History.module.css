@@ -1,0 +1,131 @@
+.generalTable {
+  display: block;
+  border-collapse: collapse;
+  overflow: auto;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+
+.generalTable thead td {
+  height: 67px;
+  color: white;
+  border-top: 0px;
+  background: darkblue;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+}
+
+.generalTable tfoot td {
+  background: #dbdbdb;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+}
+
+.generalTable td {
+  width: 240px;
+  padding: 10px;
+  border: 1px solid #888;
+  border-bottom: 0px;
+}
+
+.historyBuy {
+  max-height: 440px;
+  width: 100%;
+}
+
+.historyVacation {
+  max-height: 400px;
+  width: 750px;
+}
+
+.historyViolations {
+  max-height: 400px;
+  width: 600px;
+}
+
+.access table button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.access table button:hover {
+  color: red;
+}
+
+.group {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+}
+
+.group button {
+  height: 30px;
+  margin-top: 20px;
+  width: 180px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.group .buttonGreen:hover {
+  background: #007600;
+}
+
+.group .buttonRed:hover {
+  background: #7e0000;
+}
+
+h2 {
+  color: darkblue;
+  text-align: center;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.historyBuyModal {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.historyBuyModal button {
+  width: 100%;
+  height: 40px;
+  outline: 0;
+  border-radius: 0;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.buySelectState {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buySelectState button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.buySelectState button:hover {
+  color: darkblue;
+}
+
+.historyBuyModal button:hover {
+  background: #e1e1e1;
+}

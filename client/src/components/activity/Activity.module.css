@@ -1,0 +1,99 @@
+.player {
+  width: 220px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 0px;
+  border: 0;
+  background: transparent;
+}
+
+.player img {
+  margin-left: 10px;
+}
+
+.player:hover {
+  background: #d3d3d3;
+}
+
+.players .player {
+  width: 95%;
+}
+
+.player h1 {
+  margin-left: 15px;
+}
+
+.find input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid black;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.players {
+  height: 600px;
+  width: 300px;
+}
+
+.playerList {
+  height: 505px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.playersActivity {
+  height: 600px;
+  width: 1000px;
+  overflow-y: auto;
+}
+
+.generalTable {
+  height: 600px;
+  display: block;
+  border-collapse: collapse;
+  overflow: auto;
+}
+
+.generalTable td {
+  width: 240px;
+  border-bottom: 1px solid #888;
+  text-align: center;
+}
+
+.generalTable thead td {
+  height: 50px;
+  border-top: 0px;
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  border-top: none;
+  background: #d8d8d8;
+}
+
+.generalTable .player {
+  margin-bottom: 0px;
+}
+
+.dates {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dates input {
+  height: 35px;
+  width: 145px;
+  outline: 0;
+  border-radius: 0;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}

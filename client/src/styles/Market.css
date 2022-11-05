@@ -1,0 +1,32 @@
+.market {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.market input {
+  color: black;
+  background: #f4f4f4;
+}
+
+.market input::placeholder {
+  color: #474747;
+}
+
+.find {
+  width: 100%;
+  font-size: 15px;
+  height: 38px;
+  outline: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+  padding-left: 7px;
+  border: 1px solid black;
+}
+
+.selector {
+  width: 1398px;
+  margin-left: 1px;
+  margin-bottom: 10px;
+}

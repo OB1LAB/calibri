@@ -1,0 +1,44 @@
+.criteriaTable {
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.criteriaTable thead td {
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #888;
+  font-size: 18px;
+  background: #dbdbdb;
+}
+
+.criteriaTable tbody td {
+  max-width: 120px;
+  padding: 7px;
+  border: 1px solid #888;
+}
+
+.criteriaTable thead {
+  text-align: center;
+}
+
+.solary {
+  max-width: 900px;
+  margin-left: 100px;
+}
+
+.violations {
+  width: 350px;
+  margin-right: 100px;
+}
+
+.moderator {
+  color: #4b0082;
+}
+
+.helper2 {
+  color: #008000;
+}
+
+.helper1 {
+  color: #32cd32;
+}

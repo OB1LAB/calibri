@@ -1,0 +1,18 @@
+.tables {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.down {
+  margin-bottom: 10px;
+}

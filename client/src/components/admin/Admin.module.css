@@ -1,0 +1,192 @@
+.staffList {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.player {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 25px;
+  /* border: 1px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1; */
+}
+
+.player p {
+  white-space: nowrap;
+}
+
+.player .act {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  justify-content: space-between;
+}
+
+.player button {
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black;
+  background: #e9e9e9;
+}
+
+.player:hover {
+  background: #dfdfdf;
+}
+
+.player img {
+  margin-bottom: auto;
+}
+
+.information {
+  margin-left: 10px;
+  margin-bottom: auto;
+}
+
+.information p {
+  text-align: left;
+}
+
+.addUser {
+  cursor: pointer;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.addUser:hover {
+  background: #e8e8e8;
+}
+
+.addUser:active {
+  background: #e1e1e1;
+}
+
+.modalContent {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalContentMain {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.modalContent input {
+  width: 222px;
+  height: 38px;
+  outline: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.modalContent button {
+  width: 100%;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.modalContent h2 {
+  color: black;
+}
+
+.modalContent button {
+  height: 40px;
+}
+
+.modalContent button:hover {
+  background: #dbdbdb;
+}
+
+.selector {
+  width: 220px;
+  margin-right: 1px;
+}
+
+.logs {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  margin-bottom: 10px;
+}
+
+.report {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.report .selector {
+  width: 940px;
+  margin-top: 1px;
+}
+
+.report button {
+  width: 440px;
+  height: 40px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-right: -1px;
+}
+
+.report button:hover {
+  background: #e4e4e4;
+}
+
+.reportModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: green;
+}
+
+.reportModal .modalContent {
+  height: 40px;
+}
+
+.reportModal .modalContentMain {
+  height: 170px;
+}
+
+.reportModal .modalContentMain input {
+  width: 210px;
+}
+
+.violation .modalContentMain {
+  height: 180px;
+}
+
+.violation .modalContentMain input {
+  width: 210px;
+}
+
+.violation .selector {
+  width: 208px;
+}

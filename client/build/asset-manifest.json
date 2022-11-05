@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.177646e1.css",
+    "main.js": "/static/js/main.e4821f91.js",
+    "static/media/FSElliotPro-Bold.eot": "/static/media/FSElliotPro-Bold.0d18da5acdb51afbe845.eot",
+    "static/media/FSElliotPro-Bold.ttf": "/static/media/FSElliotPro-Bold.5da1e5890fbba5845721.ttf",
+    "static/media/FSElliotPro.eot": "/static/media/FSElliotPro.5384260e1dead89d2446.eot",
+    "static/media/FSElliotPro.ttf": "/static/media/FSElliotPro.1e4720a604cf9a6861dc.ttf",
+    "static/media/FSElliotPro-Bold.woff": "/static/media/FSElliotPro-Bold.232d0200d5a58a425085.woff",
+    "static/media/FSElliotPro.woff": "/static/media/FSElliotPro.10b5eedbf09f1f39d0c2.woff",
+    "static/media/FSElliotPro-Bold.woff2": "/static/media/FSElliotPro-Bold.332026cf5636dcaaf295.woff2",
+    "static/media/FSElliotPro.woff2": "/static/media/FSElliotPro.2aeaa9d1333dcd4ec6ea.woff2",
+    "index.html": "/index.html",
+    "main.177646e1.css.map": "/static/css/main.177646e1.css.map",
+    "main.e4821f91.js.map": "/static/js/main.e4821f91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.177646e1.css",
+    "static/js/main.e4821f91.js"
+  ]
+}

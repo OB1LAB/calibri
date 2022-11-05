@@ -1,0 +1,32 @@
+.type {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.type button {
+  height: 38px;
+  width: 400px;
+  border-radius: 0;
+  outline: none;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.type button:hover {
+  background: #e5e5e5;
+}
+
+.type .selected {
+  border: 2px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+}

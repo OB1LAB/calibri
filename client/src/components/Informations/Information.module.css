@@ -1,0 +1,61 @@
+.information h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+.information a {
+  font-size: 13px;
+}
+
+.information a:hover {
+  color: #15c;
+}
+
+.information p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.coffers {
+  height: 40px;
+  width: 700px;
+}
+
+.exchange {
+  height: 40px;
+  width: 700px;
+}
+
+.salaryCoffers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.salaryCoffers input {
+  height: 35px;
+  width: 160px;
+  outline: 0;
+  border-radius: 0;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+.salaryModal button {
+  width: 250px;
+  height: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.coffers button {
+  color: darkblue;
+  background: transparent;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.coffers button:hover {
+  color: blue;
+}
