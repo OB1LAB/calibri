@@ -1,4 +1,3 @@
-// import classes from "./Admin.module.css";
 import classes from "./Modal.module.css";
 
 export default function Modal({ children, visible, setVisible }) {
